@@ -21,7 +21,7 @@ number: 143973249
 
 bool: true/false, 0/1 
 
-list: ["apple", "banana", "apple", 131643,"mango"] ------mutable 
+list: ["apple", "banana", "apple", 131643,"mango"] 
 
 tuple: ("apple", "banana", "apple", 131643,"mango") ------immutable ---not change
 
