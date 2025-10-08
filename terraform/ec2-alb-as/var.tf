@@ -1,5 +1,5 @@
 variable "image_id" {
-    default = "ami-0f88e80871fd81e91"
+    default = "ami-0360c520857e3138f"
 }
 
 variable "instance_type" {
@@ -7,17 +7,17 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-    default = "vergenia-adi-key"
+    default = "my-key-atharva"
 }
 
 variable "subnet_id_1" {
-    default = "subnet-09b9967ebb94e39b9"
+    default = "subnet-0260788fc3ecab940"
 }
 
 variable "subnet_id_2" {
-    default = "subnet-05ffa676a7daaf1f0"
+    default = "subnet-0d2359cd1358b0d61"
 }
 
 variable "vpc_id" {
-    default = "vpc-08c2dcc23b9cb116c"
+    default = "vpc-0478afacb1fa02014"
 }
