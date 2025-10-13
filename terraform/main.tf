@@ -4,7 +4,7 @@ provider "aws" {
 
 
 
-module "aws_instance_basic"{
+module "aws_instance_basic" {
 
 
     source = "./modules/vpc"

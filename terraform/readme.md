@@ -28,3 +28,18 @@ tuple: ("apple", "banana", "apple", 131643,"mango") ------immutable ---not chang
 set: {"apple", "banana", 131643, "mango"} ------------------mutable
 
 map: {fruit = "apple", name = "Anil", address = "ramtek" }
+
+
+
+
+User (India)
+   │
+   ▼
+Nearest Edge Location (e.g., Mumbai)
+   │
+   ├── Cached Content → Delivered Immediately
+   │
+   └── If Not Cached → Fetch from Origin (e.g., S3 in us-east-1)
+                        │
+                        ▼
+                  Store copy in Edge Location
